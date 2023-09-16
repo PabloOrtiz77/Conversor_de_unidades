@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- para los caracteres especiales -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title><!--  le damos un titulo -->
+    <!-- llamamos a la hoja de estilos que creamos -->
+    <link rel="stylesheet" href="style.css">
+     <!-- llamamos a el js que creamos -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- le damos un titulo -->
+    <h1>Conversor de Unidades</h1>
+    <!-- creamos un contenedor general -->
+    <div class="container">
+        <!-- otro contenedor  -->
+        <div class="conte">
+            <!-- en este contenedor hijo estara el contenido -->
+            <div class="contenido">
+                <!-- le damos subtitulo y el select principal -->
+                <h2>Elige un metodo:</h2> 
+                <select class="opc" id="opc" tabindex="0">
+                    <option value="longitud">Longitud</option>
+                    <option value="volumen">volumen</option>
+                    <option value="masa">Masa</option>
+                    <option value="tiempo">Tiempo</option>
+                </select>
+            </div>
+        </div>
+        <!-- creamos otrp contenedor -->
+        <div class="converter">
+            <!-- este otro contenedor tendra la parte de las conversiones -->
+            <div class="contenido">
+                <!-- un span para guiar -->
+                <span>Convertir de </span>
+                <!-- este div sera donde se dibujara el selcet1 -->
+                <div id='grid1'>
+                </div>
+                <span> a </span>
+                <!-- este div sera donde se dibujara el selcet2 -->
+                <div id='grid2'> </div>
+                <!-- el input que estariamos ingresando los valores -->
+                <input class="styled-input" id="dato" placeholder="Valor:">
+                <!-- <div id=""></div> -->
+                <!-- el boton con el que se ejecutara la logica -->
+                <button type="button" id="calcular">Calcular</button>
+                <!-- aca es donde imprimiremos los resultados -->
+                <div id="resultado" class="result">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
