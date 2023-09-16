@@ -94,13 +94,14 @@ button {
   }
   /* para el titulo */
   h1{
-    padding-top: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
     color: black;
     text-align: center;
     font-size: 36px; /* Tamaño de fuente */
     text-align: center; /* Alineación del texto */
     background-color: #f2f2f2; /* Color de fondo */
-    padding: 20px; /* Espacio interior */
+    padding: 5px; /* Espacio interior */
     border-radius: 10px; /* Bordes redondeados */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
   }
